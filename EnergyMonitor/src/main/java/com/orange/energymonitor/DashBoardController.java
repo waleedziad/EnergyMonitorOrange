@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 
@@ -18,7 +19,7 @@ public class DashBoardController {
     @Autowired
     NodeDao nodeDao ;
     
-    @RequestMapping("/board.htm")
+    @RequestMapping(value = "/board.htm",method = RequestMethod.GET)
     public String goToView(Model model)
     {
         
@@ -35,11 +36,13 @@ public class DashBoardController {
             power+=nodes.get(i).getPower();
             if (i!=nodes.size()-1)power+=",";
         }
-        
+        voltage =new StringBuilder(voltage).reverse().toString();
+        current = new StringBuilder(current).reverse().toString();
+        power = new StringBuilder(power).reverse().toString();
         model.addAttribute("voltage",voltage);
         model.addAttribute("current",current);
         model.addAttribute("power",power);
-        return "/DashBoard/index.jsp";
+        return "index";
     }
     
     

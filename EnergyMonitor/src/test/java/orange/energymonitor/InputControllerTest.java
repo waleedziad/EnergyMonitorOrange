@@ -53,7 +53,7 @@ public class InputControllerTest {
     public void goToViewTest() throws Exception
     {
         MvcResult result =mockMvc.perform(get("/DashBoard/board.htm")).andExpect(status().isOk())
-                .andExpect(view().name("/DashBoard/index.jsp")).andExpect(model().attributeExists("current"))
+                .andExpect(view().name("EnergyMonitor/index")).andExpect(model().attributeExists("current"))
                 .andReturn();
         MockHttpServletRequest httpServletRequest = result.getRequest();
         Assert.isInstanceOf(String.class, httpServletRequest.getAttribute("current"));
