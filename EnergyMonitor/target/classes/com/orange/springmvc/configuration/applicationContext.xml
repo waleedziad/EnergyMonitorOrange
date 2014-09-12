@@ -17,7 +17,7 @@
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
         <property name="url" value="jdbc:mysql://localhost:3306/sensors_db" />
         <property name="username" value="root" />
-        <property name="password" value="20062011" />
+        <property name="password" value="root" />
     </bean>
     <bean id="entityManagerFactory"
           class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">

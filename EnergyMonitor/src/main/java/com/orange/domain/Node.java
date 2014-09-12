@@ -11,6 +11,8 @@ import javax.persistence.Table;
 public class Node implements Serializable{
     
     @Id
+    @Column(name = "transactionID")
+    private int transactionID ;
     @Column(name = "apikey")
 private int apikey ;
  
@@ -127,6 +129,20 @@ private double powerFactor ;
      */
     public void setPowerFactor(double powerFactor) {
         this.powerFactor = powerFactor;
+    }
+
+    /**
+     * @return the transactionID
+     */
+    public int getTransactionID() {
+        return transactionID;
+    }
+
+    /**
+     * @param transactionID the transactionID to set
+     */
+    public void setTransactionID(int transactionID) {
+        this.transactionID = transactionID;
     }
     
     

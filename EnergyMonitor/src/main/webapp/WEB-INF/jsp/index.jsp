@@ -29,7 +29,7 @@
 <div class="container">
 	<div class="header">
             
-		<img id="logo" alt="logo" src="/EnergyMonitor/assets/logo.jpeg">
+            <img id="logo" alt="logo" src="/EnergyMonitor/assets/logo.jpeg" widhth ="50" height="50">
 		<span><img src="/EnergyMonitor/assets/user.svg">admin</span>
 	</div>		
 	<div class="navBar">
@@ -59,7 +59,13 @@
                     <canvas id="canvas" height="200" width="650" ></canvas>
 		</div>
 		<div class="chartBoard">
-			Table
+                    <%
+                   
+                    
+                    
+                    
+                    
+                    %>
 		</div>
 		
 	</div>
