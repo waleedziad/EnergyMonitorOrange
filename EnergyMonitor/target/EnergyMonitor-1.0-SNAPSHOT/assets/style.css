@@ -18,6 +18,7 @@ html,body{
 	position:relative;
 	left:28%;
 	top:60px;
+        overflow: auto  ;
 }
 .header{
 	height:60px;
@@ -81,9 +82,37 @@ span img{
 }
 
 .chartBoard{
-	width:100%;
+	width : 69% ;
 	background-color:rgb(240,240,220);
 	padding-top:20px;
 	padding-bottom:20px;
 	margin-top:10px;
+         display: inline-block;
+       
+        
+       
+}.InfoBoard{
+        width : 30% ;
+        height:22.5%;
+        font-size: 15px;
+	background-color:rgb(240,240,220);
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:10px;
+       display: inline-block;
+       vertical-align:top;
+    
+       
+}
+.canvas {
+        width : 100% ;
+    
+    
+}
+.infoTable{
+    padding-top:20px;
+	padding-bottom:20px;
+    background-color:rgb(240,240,220);
+    margin-top:10px;
+    
 }

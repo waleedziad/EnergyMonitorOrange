@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.869" errors="0" skipped="0" tests="2" name="orange.energymonitor.NodeDaoTest">
+<testsuite failures="0" time="0.452" errors="0" skipped="0" tests="2" name="orange.energymonitor.NodeDaoTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_26\jre\bin"/>
@@ -16,6 +16,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="E:\Demo10-9-2014\EnergyMonitorOrange\EnergyMonitor"/>
     <property name="java.runtime.version" value="1.6.0_26-b03"/>
+    <property name="netbeans.deploy" value="true"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_26\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
@@ -35,14 +36,14 @@
     <property name="user.home" value="C:\Users\sony"/>
     <property name="user.timezone" value="Asia/Baghdad"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="Cp1256"/>
     <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="Cp1256"/>
     <property name="user.name" value="sony"/>
     <property name="java.class.path" value="C:\Program Files\NetBeans 7.1.2\java\maven\bin\..\boot\plexus-classworlds-2.4.jar"/>
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_26\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dnetbeans.deploy=true package"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="ar"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -59,6 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.644" classname="orange.energymonitor.NodeDaoTest" name="testGetAll"/>
-  <testcase time="0.224" classname="orange.energymonitor.NodeDaoTest" name="testInsert"/>
+  <testcase time="0.379" classname="orange.energymonitor.NodeDaoTest" name="testGetAll"/>
+  <testcase time="0.072" classname="orange.energymonitor.NodeDaoTest" name="testInsert"/>
 </testsuite>

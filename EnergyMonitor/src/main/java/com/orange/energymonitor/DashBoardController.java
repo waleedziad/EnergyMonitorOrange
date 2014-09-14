@@ -36,9 +36,9 @@ public class DashBoardController {
             power+=nodes.get(i).getPower();
             if (i!=nodes.size()-1)power+=",";
         }
-        voltage =new StringBuilder(voltage).reverse().toString();
-        current = new StringBuilder(current).reverse().toString();
-        power = new StringBuilder(power).reverse().toString();
+       // voltage =new StringBuilder(voltage).reverse().toString();
+        //current = new StringBuilder(current).reverse().toString();
+        //power = new StringBuilder(power).reverse().toString();
         model.addAttribute("nodes",nodes);
         model.addAttribute("voltage",voltage);
         model.addAttribute("current",current);
