@@ -6,11 +6,11 @@
 <%@page import="com.orange.Dao.NodeDao"%>
 <html lang="en">
 <head>
-<!--        <meta http-equiv="refresh" content="5" />-->
+       <meta http-equiv="refresh" content="25" />
 	<meta charset="UTF-8">
 	<title>Sample</title>
 	<link rel="stylesheet" href="/EnergyMonitor/assets/style.css" />
-        <link rel="stylesheet" href ="https://cdn.datatables.net/1.10.2/css/jquery.dataTables.css"/>
+        <link rel="stylesheet" href ="/EnergyMonitor/assets/jquery.dataTables.css"/>
         <style>
             canvas {
                 
@@ -18,8 +18,8 @@
             }
             </style>
 <script src="/EnergyMonitor/assets/Chart.js"></script>
-<script src ="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+<script src ="/EnergyMonitor/assets/jquery-1.11.1.min.js"></script>
+<script src="/EnergyMonitor/assets/jquery.dataTables.min.js"></script>
 </head>
 
 
@@ -52,12 +52,28 @@
 			<p> Energy consumption </p>
 		</div>
 		</a>
-		<a href="">
+		<a href="http://localhost:8081/EnergyMonitor/Users/getUsers.htm">
 		<div class="navButton">
 			<div class="icon"><img src="/EnergyMonitor/assets/login.svg"></div>
-			<p> Login </p>
+                        <p>Users</p> 
 		</div>
 		</a>
+            
+            <a href="">
+		<div class="navButton">
+			<div class="icon"><img src="/EnergyMonitor/assets/alarms.svg"></div>
+			<p> Alerts </p>
+		</div>
+		</a>
+           
+		<a href="">
+		<div class="navButton">
+			<div class="icon"><img src="/EnergyMonitor/assets/billing.svg"></div>
+			<p> Billing </p>
+		</div>
+		</a>
+		
+	
 	</div>
 	<div class="content">
 		<div class="chartBoard">
