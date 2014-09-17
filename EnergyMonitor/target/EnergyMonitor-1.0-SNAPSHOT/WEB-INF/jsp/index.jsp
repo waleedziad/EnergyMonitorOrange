@@ -54,7 +54,7 @@
 		</a>
 		<a href="http://localhost:8081/EnergyMonitor/Users/getUsers.htm">
 		<div class="navButton">
-			<div class="icon"><img src="/EnergyMonitor/assets/login.svg"></div>
+			<div class="icon"><img src="/EnergyMonitor/assets/users.svg"></div>
                         <p>Users</p> 
 		</div>
 		</a>
