@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="4.207" errors="0" skipped="0" tests="2" name="orange.energymonitor.InputControllerTest">
+<testsuite failures="0" time="42.236" errors="0" skipped="0" tests="2" name="orange.energymonitor.InputControllerTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_26\jre\bin"/>
@@ -60,6 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="3.797" classname="orange.energymonitor.InputControllerTest" name="AcceptInputTest"/>
-  <testcase time="0.227" classname="orange.energymonitor.InputControllerTest" name="goToViewTest"/>
+  <testcase time="37.207" classname="orange.energymonitor.InputControllerTest" name="AcceptInputTest"/>
+  <testcase time="1.529" classname="orange.energymonitor.InputControllerTest" name="goToViewTest"/>
 </testsuite>
